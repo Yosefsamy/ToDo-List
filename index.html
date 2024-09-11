@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-body-tertiary">
+    <div class="section py-5">
+        <div class="container text-center">
+            <h1 class="fw-bold mb-4"> Welcome To Our ToDo List</h1>
+            <form class="d-flex justify-content-center align-items-center gap-2">
+                <input id="todo_input" class="form-control w-50 py-2" type="text" placeholder="Write Your Task Here">
+                <button id="todo_btn" class="btn btn-outline-primary px-4 py-2" type="button">Add</button>
+            </form>
+
+            <ul id="tasks_list">
+                
+            </ul>
+        </div>
+    </div>
+
+    <div id="toaster" class="toaster">This is a toaster notification!</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
